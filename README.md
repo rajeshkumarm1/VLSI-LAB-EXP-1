@@ -1,11 +1,12 @@
 # SIMULATION OF LOGIC GATES ,ADDERS AND SUBTRACTORS
 
-AIM:
+# AIM:
 To simulate and synthesis Logic Gates,Adders and Subtractor using Vivado 2023.1.
 
-APPARATUS REQUIRED: Vivado 2023.1.
+# APPARATUS REQUIRED:
+Vivado 2023.1.
 
-PROCEDURE:
+# PROCEDURE:
 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2.Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
@@ -23,24 +24,25 @@ PROCEDURE:
 8.Run Simulation: Start the simulation by clicking on the "Run" button in the simulation window.
 
 9.View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
-Logic Diagram :
+
+# Logic Diagram :
 
 ![301405876-ee17970c-3ac9-4603-881b-88e2825f41a4](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/567b87e6-13f3-4abf-898d-f7943aa3e6fc)
-Half Adder:
+# Half Adder:
 ![301406331-0e1ecb96-0c25-4556-832b-aeeedfdfe7b9](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/9bd27cf5-9efa-4135-9de5-dd29001ba477)
 
-Full adder:
+# Full adder:
 ![301406527-9bb3964c-438f-469d-a3de-c1cca6f323fb](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/a64ed39b-0751-499e-a857-f5d075813bd3)
-Half Subtractor:
+# Half Subtractor:
 
 ![301406051-731470b7-eb4e-49f8-8bb7-2994052a7184](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/d5881631-510c-4cbd-adc0-38cb82ab038b)
-Full Subtractor:
+# Full Subtractor:
 ![301406088-d66f874b-c1f2-44b3-a035-7149b56430c1](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/c90a7708-2024-4711-8473-e4862d01e20e)
 
-8 Bit Ripple Carry Adder
+# 8 Bit Ripple Carry Adder
 ![301406117-7385a408-40a5-4203-8050-b72818622d79](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/8e7571dd-189d-4044-986e-a3250f4700b4)
 
-VERILOG CODE:
+# VERILOG CODE:
 # Full Adder:
 ```
 module fulladder (sum, cout, a,b,c);
@@ -118,19 +120,19 @@ and G4(w3, X, Y);
 or G5(Co, w2, w3);
 endmodule
 ```
-OUTPUT:
-full adder
+# OUTPUT:
+# full adder
 ![WhatsApp Image 2024-04-01 at 14 06 40_bf0bcce7](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/0a976f22-c773-48cd-b3ce-d53aa590312f)
-Full Subractor
+# Full Subractor
 ![WhatsApp Image 2024-04-01 at 14 29 23_d373d46f](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/f0ba4be8-64ca-4487-817e-676dec3fbc2a)
-Half Adder
+# Half Adder
 ![WhatsApp Image 2024-04-01 at 14 06 39_9e93a24f](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/1336ec39-cbc6-4f0a-9f5c-5e2b2ba0ff56)
-Half Subractor
+# Half Subractor
 ![WhatsApp Image 2024-04-01 at 14 06 39_a3ae1259](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/3a73f477-3033-4ab5-8785-b4e1bd592b3a)
-Logic Gates
+# Logic Gates
 ![WhatsApp Image 2024-04-01 at 14 06 39_bacd2040](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/2e9deaae-f82e-4757-a687-0e065b079034)
-Ripple Carry Adder
+# Ripple Carry Adder
 ![WhatsApp Image 2024-04-01 at 14 06 41_72720412](https://github.com/rajeshkumarm1/VLSI-LAB-EXP-1/assets/160701441/a130fc86-e925-448d-942a-9557171a4362)
 
-result:
+# Result:
 Thus the simulate Logic Gates ,Adders and Subtractors is done and verified.
